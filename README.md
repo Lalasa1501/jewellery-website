@@ -1,4 +1,10 @@
+Perfect — from your screenshots I can see the exact project structure and features 👏.
 
+Here is a **final polished README.md** for your project:
+
+---
+
+```markdown
 # 💍 Jewellery E-Commerce Website
 
 An online jewellery e-commerce platform where users can browse, search, and purchase jewellery items.  
@@ -40,14 +46,18 @@ Built with **MERN Stack** — MongoDB, Express.js, React.js, Node.js.
 
 ## 📂 Project Structure
 
+```
 
 jew-backend/   → Node.js + Express + MongoDB (API Server)
 jew-frontend/  → React.js (Client Side UI)
+
+```
 
 ---
 
 ### 🔸 Backend Structure
 
+```
 
 jew-backend/
 ├── config/ (Environment Variables)
@@ -58,20 +68,21 @@ jew-backend/
 ├── index.js (Entry Point)
 ├── package.json
 
+```
 
-Key API Routes:
-- /userRoutes.js
-- /jewelleryRoutes.js
-- /cartRoutes.js
-- /orderRoutes.js
-- /wishlistRoutes.js
-- /paymentRoutes.js
+**Key API Routes**:
+- `/userRoutes.js`
+- `/jewelleryRoutes.js`
+- `/cartRoutes.js`
+- `/orderRoutes.js`
+- `/wishlistRoutes.js`
+- `/paymentRoutes.js`
 
 ---
 
 ### 🔸 Frontend Structure
 
-
+```
 
 jew-frontend/
 ├── src/
@@ -84,7 +95,7 @@ jew-frontend/
 ├── public/
 ├── package.json
 
-\
+````
 
 **Main Pages**:
 - Home
@@ -106,15 +117,18 @@ jew-frontend/
 
 ### 1️⃣ Clone the repository
 
+```bash
 git clone https://github.com/Lalasa1501/jewellery-website.git
+````
 
 ---
 
 ### 2️⃣ Backend Setup
 
-
+```bash
 cd jew-backend
 npm install
+```
 
 Create `.env` file in `jew-backend/config/`:
 
@@ -126,19 +140,24 @@ JWT_SECRET=your_jwt_secret
 
 Start backend server:
 
+```bash
 npm start
+```
 
 ---
 
 ### 3️⃣ Frontend Setup
 
-
+```bash
 cd ../jew-frontend
 npm install
+```
 
 Start React frontend:
 
+```bash
 npm run dev
+```
 
 ---
 
@@ -146,18 +165,23 @@ npm run dev
 
 1️⃣ Start Backend:
 
-
+```bash
 cd jew-backend
 npm start
-
+```
 
 2️⃣ Start Frontend:
 
-
+```bash
 cd ../jew-frontend
 npm run dev
-
+```
 
 3️⃣ Open browser:
 
+```text
 http://localhost:3000
+```
+
+---
+
